@@ -49,7 +49,8 @@ void main(void) {
 
 		dtext(0, 0, C_BLACK, "Hello, world!");
 		dtext(0, 8, C_BLACK, "An add-in made by");
-		dtext(0, 16, C_BLACK, "James Livesey");
+		dtext(0, 16, C_BLACK, "James Livesey, now");
+		dtext(0, 24, C_BLACK, "built from my laptop!");
 		
 		if (keyWasPressed) {
 			sprintf(buffer, "Key pressed: %d", lastKeyPressed);
